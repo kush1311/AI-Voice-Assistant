@@ -13,7 +13,7 @@ This project is an AI-powered Voice Assistant built using Python that listens to
 - **Visual Feedback**: A glowing circle on the GUI indicates the assistant's status (listening, processing).
 
 ## Requirements
-- Python 3.x
+- Python 3.10
 - Tkinter (for the GUI)
 - SpeechRecognition
 - Pyttsx3
