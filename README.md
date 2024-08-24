@@ -30,7 +30,3 @@ This project is an AI-powered Voice Assistant built using Python that listens to
      ollama run llama3.1
      ```
 
-2. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-repository-url
-   cd your-repository-name
