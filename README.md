@@ -1,2 +1,36 @@
-# AI-Voice-Assistant
-Developed an AI Voice Assistant in Python capable of answering a wide range of questions using LLaMA 3.1. It performs tasks via speech commands, including web searches, file creation, music playback, and form filling, utilizing Selenium WebDriver and featuring a glowing visual indicator for activity.
+# AI Voice Assistant
+
+## Overview
+This project is an AI-powered Voice Assistant built using Python that listens to voice commands and performs various tasks such as answering questions, creating files, searching the web, playing music, and filling out online forms. The assistant leverages the LLaMA 3.1 model to answer a wide range of questions and uses a glowing visual indicator to reflect its listening and processing states, enhancing user engagement.
+
+## Features
+- **Advanced Question Answering**: Capable of answering a broad spectrum of questions using LLaMA 3.1.
+- **Speech Recognition**: Captures voice commands using Google's Speech Recognition API.
+- **Text-to-Speech**: Provides spoken responses using the pyttsx3 library.
+- **Web Automation**: Automates tasks like web searches and music playback using Selenium WebDriver.
+- **File Creation**: Creates text files based on voice commands.
+- **Form Submission**: Automatically fills and submits forms on websites.
+- **Visual Feedback**: A glowing circle on the GUI indicates the assistant's status (listening, processing).
+
+## Requirements
+- Python 3.x
+- Tkinter (for the GUI)
+- SpeechRecognition
+- Pyttsx3
+- Selenium
+- LangChain Community Package
+- [Ollama](https://ollama.com) software for running LLaMA 3.1
+- ChromeDriver (compatible with your installed version of Chrome)
+
+## Installation
+1. **Install Ollama software:**
+   - Download and install [Ollama](https://ollama.com).
+   - Run the following command to download the LLaMA 3.1 model:
+     ```bash
+     ollama run llama3.1
+     ```
+
+2. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-repository-url
+   cd your-repository-name
