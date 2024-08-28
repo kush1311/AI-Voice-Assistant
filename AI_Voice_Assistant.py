@@ -79,7 +79,7 @@ def perform_manual_task(text):
 def generate_and_speak():
     text = text_area.get('1.0', tk.END).strip()
     if text:
-        ollama_llm = Ollama(model="llama3.1")
+        ollama_llm = Ollama(model="gemma2:2b")
         response = ollama_llm.invoke(text)
         try:
             engine.say(response)
