@@ -14,10 +14,10 @@ This project is an AI-powered Voice Assistant built using Python that listens to
 
 ## Requirements
 - Python 3.10
-- Tkinter (for the GUI)
 - SpeechRecognition
 - Pyttsx3
 - Selenium
+- Flask
 - LangChain Community Package
 - [Ollama](https://ollama.com) software for running Gemma2:2b
 - ChromeDriver (compatible with your installed version of Chrome)
