@@ -25,8 +25,8 @@ This project is an AI-powered Voice Assistant built using Python that listens to
 ## Installation
 1. **Install Ollama software:**
    - Download and install [Ollama](https://ollama.com).
-   - Run the following command to download the LLaMA 3.1 model:
+   - Run the following command to download the Gemma2 model:
      ```bash
-     ollama run llama3.1
+     ollama run Gemma2:2b
      ```
 
